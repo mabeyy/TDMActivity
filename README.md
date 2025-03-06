@@ -10,8 +10,8 @@
 2. No Modularization for User Input:
  
    • get_valid_deduction_input() and get_valid_salary_input() share similar input validation patterns, leading to code duplication.
-
-3.Limited Error Handling:
+   
+3. Limited Error Handling:
   
   • While errors are caught, the solution lacks deeper validation for edge cases, for instance, the negative salary or deduction inputs.
 
