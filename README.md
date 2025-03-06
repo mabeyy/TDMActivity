@@ -24,17 +24,21 @@
 
    • The static values for deductions can be externalized into a configuration file, making it easy to modify them without changing code.
 
-3. Modularize Code for Reusability:
+2. Modularize Code for Reusability:
+
    • Create a helper function for common input validation to reduce code duplication.
 
-4. Separation of Logic:
+3. Separation of Logic:
+
    • Split the calculation of total deductions and net salary into separate methods. This increases clarity and maintainability.
 
-5. Enhanced Error Handling:
+4. Enhanced Error Handling:
+
    • Introduce more specific error handling for invalid inputs, like salary being zero or negative, or deductions being unreasonable.
 
-6. Improved Naming:
-    • Slight improvements in naming conventions for clarity, such as renaming deduction_type to deduction_category for better readability.
+5. Improved Naming:
+
+   • Slight improvements in naming conventions for clarity, such as renaming deduction_type to deduction_category for better readability.
 
 ## Challenges & Solutions:
 1. Dynamic Thresholds: Suggested using external configurations to handle changing deduction thresholds.
