@@ -1,3 +1,5 @@
+# FINAL CODE
+
 class Salary:
     def __init__(self, salary: float, sss: float = None, pagibig: float = None, tax: float = None):
         """
