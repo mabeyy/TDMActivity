@@ -14,7 +14,7 @@
 4. Complexity in calculate_deductions():
    • calculate_deductions() handles both deduction calculation and net salary calculation, which can be split into separate functions for better readability.
 
-Refactoring Improvements:
+## Refactoring Improvements:
 1. External Configuration for Deductions:
    • The static values for deductions can be externalized into a configuration file, making it easy to modify them without changing code.
 
@@ -30,7 +30,7 @@ Refactoring Improvements:
 5. Improved Naming:
     • Slight improvements in naming conventions for clarity, such as renaming deduction_type to deduction_category for better readability.
 
-Challenges & Solutions:
+## Challenges & Solutions:
 1. Dynamic Thresholds: Suggested using external configurations to handle changing deduction thresholds.
 2. Input Validation: Abstracted common validation logic to a helper function.
 3. Modularity: Broke down large functions for better readability and reusability.
