@@ -4,6 +4,7 @@
 1. Hardcoded Values:
    
    • The deduction amounts (SSS, Pag-IBIG, Tax) are hardcoded, which limits flexibility when the policy changes.
+
    • SSS and tax thresholds are based on static values, which may change over time.
 
 3. No Modularization for User Input:
